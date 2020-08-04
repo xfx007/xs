@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>
+		小飞侠小说
+	</title>
+	  <link rel="stylesheet" href="/Static/student/bootstrap/css/bootstrap.css">
+	<link href="../favicon.png" rel="apple-touch-icon-precomposed" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1,user-scalable=no">
+	<link rel="stylesheet" href="__STATICXS__/css/style.css">
+
+    <script src="__STATICWX__/js/jquery.min.js"></script>
+</head>
+
+<body>
+
+	<div class="header">
+		<span class="nav_left">
+			<a href="javascript:history.go(-1)">
+				返回
+			</a>
+		</span>
+		<span class="nav_right">
+			<a rel="internal"   href="javascript:;" >
+				男生
+			</a>
+			</h1>
+		</span>
+		<h1>
+			作品目录
+		</h1>
+	</div>
+	<div class="wrap">
+		<div class="section">
+			<div class="btitle">
+				<a href="../novelinfo/70159.html@cnl=kanshu" class="ye">
+					<?=$listArticle['title'][0]?>
+				</a>
+				<span>
+					(连载中)
+				</span>
+			</div>
+			<div class="tab-menu t2 mt15">
+				  <a href="javascript:;" class="cur">
+					顺序显示
+				</a>
+				  <a href="javascript:;" >
+					倒序显示
+				</a>
+			</div>
+			<div class="dir_list">
+				<ul class="blist">
+				<div id="list_name">
+				   <?php foreach($list as $k=>$v): ?>
+					<li>
+						<span class="bname">
+							<a href='/Xiaoshuo/Read/read.html?id=<?=$listUrl[$k]?>'>
+								<?=$v?>
+							</a>
+						</span>
+					</li>
+				 <?php endforeach; ?>
+			</div>	
+				</ul>
+			</div>
+
+			<div class="pages">
+		
+				<p>
+					<span class="page_num">
+						<select name="page" class="m_s" onchange="loadurl('/Xiaoshuo/Read/read.html?id=',this.value)">
+						<?php foreach($listArticle['name'] as $k=>$v): ?>
+							<option value="<?=$listArticle['url'][$k]?>" selected="selected">
+								<?=$v?>
+							</option>
+							<?php endforeach; ?>
+						</select>
+				</p>
+			</div>
+			<div id="page">
+		{$page}
+			</div>
+					
+		</div>
+	</div>
+	<div class="footer home-bg">
+		<div class="footer_nav clearfix">
+		 <a href="/Xiaoshuo/Index/index.html" >
+				首页
+			</a>
+		</div>
+		<p class="edition mt20">
+			<span>
+				  <a href="javascript:;" >
+					普通版
+				</a>
+				|
+				<a href="##" class="select">
+					触屏版
+				</a>
+			</span>
+		</p>
+		<p class="copyright mt20">
+			<b>
+				小飞侠小说
+			</b>
+		
+		</p>
+		<span id="gotop" class="icons icon-gotop">
+		</span>
+	</div>
+	<div class="pop_cover">
+	</div>
+	<div class="pop_tip">
+		<div class="pop_inner">
+			<div class="pop_cont">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+<script>
+function articlePage(Aid,p){
+	//alert(Aid);
+    //定义一个变量
+    $.ajax({
+        type:'post',
+        url:"/Xiaoshuo/Lst/catalogue.html?id="+Aid,
+        data:{Aid:Aid,p:p},
+        dataType:'json',
+        success:function(data){
+        	var html='';
+             //alert(data);
+               if(data.sta=='0'){
+                alert(data.list);
+            }else if(data.sta=='1'){
+            	//console.log(data.show);
+            	//console.log(data.list);
+            	$("#page").empty(); //清空容器//
+            	 $("#page").append(data.show);
+            	//$("#list_name").empty(); //清空容器//
+            	$("#list_name").empty(); //清空容器//
+            	for (var i=0;i<data.list.length;i++){ //循环遍历
+                html +='<li>';
+                html +='<span class="bname">';
+                html +='<a href="/Xiaoshuo/Read/read.html?id='+data.listUrl[i]+'">';
+                html +=data.list[i];
+             	html +='</a>';
+             	html +='</span>';
+             	html +='</li>';
+            }//console.log(data.html);
+            	 $("#list_name").append(html);
+             }
+
+        }
+    })
+}
+</script>

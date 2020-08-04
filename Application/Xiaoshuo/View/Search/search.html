@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="canonical" href="index" />
+        <title>
+           小飞侠小说
+        </title>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1,user-scalable=no">
+      <link rel="stylesheet" href="/Static/student/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="__STATICXS__/css/style.css">
+    <script src="__STATICXS__/js/jquery-1.9.1.min.js"></script>
+    </head>
+    
+    <body>
+              <style type="text/css">
+.chaplink .prevchap {
+    width: 28%;
+    margin-right: 5%;
+}
+.bintro p {
+    color: #666666;
+    font-size: 9px;
+}
+        </style>
+        <script src="__STATICXS__/js/require.js">
+        </script>
+        <div class="top">
+            <h1 class="fl">
+            小飞侠小说
+              </h1>
+            <p class="fr">
+          <a href="javascript:;" class="icon_user"
+                title="个人中心">
+                    个人中心
+                </a>
+            </p>
+        </div>
+       
+  <div class="search">
+            <div class="searchbox mt10 clearfix">
+                <form action="/Xiaoshuo/Search/search.html" method="get">
+                    <!-- <input type="hidden" name="sid" value="-jlfcT4pLcKDMWGdK6tas1" /> -->
+                    <input name="keyword" type="text" class="t_i"  id="keyword" placeholder="输入小说名字" autocomplete="off"/>
+                    <!-- <input type="hidden" name="search" value="aname" /> -->
+                    <div class="searchbtn">
+                        <span class="t_b">
+                        </span>
+                        <span class="t_t">
+                            搜索
+                        </span>
+                        <input type="submit" value="" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3 class="title">
+                <span class="b_l">
+                    热门小说
+                </span>
+            </h3>
+            <div class="box tab-pane clearfix">
+                <div class="blist tab-content active">
+                    <ul>
+                    <?php foreach($details as $k=>$v): ?>
+                        <li>
+                            <a href="/Xiaoshuo/Lst/lst.html?id=<?=$listArticle[$k]?>" >
+                                <div class="bcover fl">
+                                    <img src="<?=$img[$k]?>" alt=""
+                                    onerror="this.src='http://img.kanshu.com/articleInfo/images/nopic.jpg';this.onerror='';"
+                                    height="130" width="85" />
+                                </div>
+                                <div class="bintro pl10">
+                                    <h5>
+                                       <?=$v[0]?>
+                                    </h5>
+                                    <p>
+                                        <?=$desc[$k]?>
+                                        <br>
+                                        <?=$v[2]?><?=$v[3]?>
+                                        <br>
+                                        <?=$v[4]?><?=$v[5]?>
+                                        <br>
+                                        <?=$v[6]?>
+
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <?php endforeach; ?>
+                    <?php foreach($article[0]['name'] as $k=>$v): ?>
+                        <li>
+                            <a href='/Xiaoshuo/Lst/lst.html?id=<?=$article[0]["url"][$k]?>'>
+                                <div class="bintro">
+                                    <h4>
+                                        <?=$v?>
+                                    </h4>
+                                    <p>
+                                       <!--  玄幻奇幻 . (全本) . 391.7万字
+                                        <br>
+                                        天地之间，有九种最为神奇，威力莫测的力量，名为九阳之力。传说九阳之中，蕴藏天地间的终极奥义。谁能发现这个秘密，就能成为绝世强者，君临天下！修炼五大层次：练血！练气！练神！法天！天人！PS:小妖新书《绝品透视》，4月1日开始上传更新，欢迎新老读者捧场。 -->
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <?php endforeach; ?>
+                        <li class="item_more">
+                            <a href="javascript:;" class="more">
+                                更多作品&gt;
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="chaplink">
+             {$page}
+            </div>
+
+        <div class="footer home-bg">
+            <div class="footer_nav clearfix">
+                <a href="/Xiaoshuo" >
+                    首页
+                </a>
+            </div>
+            <p class="edition mt20">
+                <span>
+                  <a href="javascript:;" >
+                        普通版
+                    </a>
+                    |
+                    <a href="javascript:;" class="select">
+                        触屏版
+                    </a>
+                </span>
+            </p>
+            <p class="copyright mt20">
+                <b>
+                    小飞侠小说
+                </b>
+              
+            </p>
+            <span id="gotop" class="icons icon-gotop">
+            </span>
+        </div>
+        <div class="pop_cover">
+        </div>
+        <div class="pop_tip">
+            <div class="pop_inner">
+                <div class="pop_cont">
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
+ <script type="text/javascript">
+  function article(url) {
+        $.ajax({
+            type: "post",
+            url: "/Xiaoshuo/Lst/lst.html",
+            data: {url:url},
+            dataType: "json",
+            success: function (data) {
+              if(data.sta=='0'){
+              alert(data.msg);
+          }else if(data.sta=='1'){
+              alert(data.msg);
+          }else if(data.sta=='2'){
+              alert(data.msg);
+          }else if(data.sta=='3'){
+              alert(data.msg);
+          }
+            }
+        });
+
+}
+</script>

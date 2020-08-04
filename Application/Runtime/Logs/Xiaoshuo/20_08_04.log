@@ -1,0 +1,287 @@
+[ 2020-08-04T18:01:41+08:00 ] 127.0.0.1 /Xiaoshuo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] Undefined variable: ch D:\phpstudy_pro\WWW\www.xs.com\Application\Common\Common\function.php 第 5 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy_pro\WWW\www.xs.com\Application\Common\Common\function.php 第 5 行.
+NOTIC: [8] Undefined variable: ch D:\phpstudy_pro\WWW\www.xs.com\Application\Common\Common\function.php 第 6 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy_pro\WWW\www.xs.com\Application\Common\Common\function.php 第 6 行.
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 54 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 56 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 54 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 56 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 54 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 56 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 54 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2020-08-04T18:02:05+08:00 ] 127.0.0.1 /Xiaoshuo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2020-08-04T18:02:10+08:00 ] 127.0.0.1 /Xiaoshuo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2020-08-04T18:02:15+08:00 ] 127.0.0.1 /Xiaoshuo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2020-08-04T18:02:28+08:00 ] 127.0.0.1 /Xiaoshuo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2020-08-04T18:02:35+08:00 ] 127.0.0.1 /Xiaoshuo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2020-08-04T18:02:38+08:00 ] 127.0.0.1 /Xiaoshuo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 D:\phpstudy_pro\WWW\www.xs.com\Application\Xiaoshuo\Controller\IndexController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+NOTIC: [2] Use of undefined constant father - assumed 'father' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 55 行.
+NOTIC: [2] Use of undefined constant img - assumed 'img' (this will throw an Error in a future version of PHP) D:\phpstudy_pro\WWW\www.xs.com\Application\Runtime\Cache\Xiaoshuo\36384f3ca32fc5890d69c94d11f596b3.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2020-08-04T18:02:50+08:00 ] 127.0.0.1 /Xiaoshuo/Lst/lst.html?id=8_8109
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+NOTIC: [8] Undefined variable: ch D:\phpstudy_pro\WWW\www.xs.com\Application\Common\Common\function.php 第 5 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy_pro\WWW\www.xs.com\Application\Common\Common\function.php 第 5 行.
+NOTIC: [8] Undefined variable: ch D:\phpstudy_pro\WWW\www.xs.com\Application\Common\Common\function.php 第 6 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy_pro\WWW\www.xs.com\Application\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2020-08-04T18:02:50+08:00 ] 127.0.0.1 /Xiaoshuo/Lst/lst.html?id=8_8109
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2020-08-04T18:02:50+08:00 ] 127.0.0.1 /Xiaoshuo/Lst/__AURL__//cover/8/8109/8109s.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2020-08-04T18:02:55+08:00 ] 127.0.0.1 /Xiaoshuo/Read/read.html?id=8_8109/1195537.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: ch D:\phpstudy_pro\WWW\www.xs.com\Application\Common\Common\function.php 第 5 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy_pro\WWW\www.xs.com\Application\Common\Common\function.php 第 5 行.
+NOTIC: [8] Undefined variable: ch D:\phpstudy_pro\WWW\www.xs.com\Application\Common\Common\function.php 第 6 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given D:\phpstudy_pro\WWW\www.xs.com\Application\Common\Common\function.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+

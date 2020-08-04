@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks
+  RewriteEngine On
+
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  #apache调用php5模块使用
+  #RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+  
+  #fast-cgi模式使用
+  RewriteRule ^(.*)$ index.php?s=$1 [QSA,PT,L]
+</IfModule>
